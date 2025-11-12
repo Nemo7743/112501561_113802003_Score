@@ -17,6 +17,6 @@ for i in grades:
   elif(int(i)<minPeople):minPeople = int(i)
 print(maxPeople, minPeople)
 
-average = sum(grades) / len(grades)
+average = sum(int(grades)) / len(int(grades))
 
 print(average)
